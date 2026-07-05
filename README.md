@@ -1,4 +1,4 @@
-# 📊 Is Least Profitable always Unprofitable?
+# 📊 Is Least Profitable Always Unprofitable?
 
 ### Product Profitability Analysis Dashboard (Tableau)
 
