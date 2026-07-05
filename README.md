@@ -5,6 +5,11 @@
 An interactive Tableau dashboard that analyzes product profitability across categories, geographic regions, and time. The goal is to identify loss-generating products, understand where and why losses occur, and determine whether unprofitable items are isolated cases or part of broader structural issues.
 
 ---
+## 📷 Dashboard Preview
+
+![Dashboard](Dashboard.png)
+
+---
 
 ## ❗ Problem Statement
 
@@ -26,12 +31,6 @@ The key objective of this analysis is to understand:
 > **Whether the least profitable products are truly “bad products” or symptoms of deeper category-level or structural issues.**
 
 This helps businesses make better decisions around pricing, discount strategy, product design, and category management.
-
----
-
-## 📷 Dashboard Preview
-
-![Dashboard](Dashboard.png)
 
 ---
 
