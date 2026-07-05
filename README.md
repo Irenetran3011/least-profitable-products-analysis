@@ -28,7 +28,7 @@ To answer this question, the dashboard examines:
 
 ## 📷 Dashboard Preview
 
-> Replace the image below with your dashboard screenshot after uploading it.
+
 
 ![Dashboard Preview](Dashboard.png)
 
