@@ -129,17 +129,6 @@ Includes:
 
 ---
 
-## 🚀 How to View the Dashboard
-
-### Option 1: Tableau Desktop
-Open the `.twbx` file using Tableau Desktop or Tableau Public Desktop.
-
-### Option 2: Tableau Public (Recommended)
-View the interactive dashboard online:
-👉 *Add your Tableau Public link here*
-
----
-
 ## 📈 What This Project Demonstrates
 
 This project demonstrates my ability to:
