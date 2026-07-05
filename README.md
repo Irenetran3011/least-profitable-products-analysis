@@ -1,101 +1,111 @@
-# 📊 Least Profitable Products Analysis Dashboard
+# 📊 Is Least Profitable always Unprofitable?
 
-An interactive Tableau dashboard that analyzes product profitability across categories, products, geographic regions, and time. This project helps identify loss-generating products, understand where losses occur, and uncover trends that support better business decisions.
+### Product Profitability Analysis Dashboard (Tableau)
 
----
-
-## 📌 Project Overview
-
-Profitability is one of the most important indicators of business performance. While high-performing products often receive the most attention, consistently unprofitable products can significantly impact overall profitability.
-
-This dashboard explores product profit from multiple perspectives, allowing users to drill down from departments to categories and individual products. It highlights where losses occur, how profitability varies by location, and whether negative performance is consistent over time.
+An interactive Tableau dashboard that analyzes product profitability across categories, geographic regions, and time. The goal is to identify loss-generating products, understand where and why losses occur, and determine whether unprofitable items are isolated cases or part of broader structural issues.
 
 ---
 
-## 🎯 Business Question
+## ❗ Problem Statement
 
-**Are the least profitable products always unprofitable, or do they belong to otherwise profitable categories?**
+Most businesses focus heavily on revenue-generating products, while underperforming or loss-making products often go unnoticed.
 
-To answer this question, the dashboard examines:
+This project investigates:
 
-- Overall profit by product category
-- Top 10 least profitable products
-- Profitability by U.S. state
-- Quarterly profit trends
-- Department, category, and product drill-downs
+- Which products are responsible for the greatest losses?
+- Are losses concentrated in specific categories or spread across the business?
+- Do unprofitable products belong to otherwise profitable categories?
+- Are losses driven by geography, time, or product structure?
+
+---
+
+## 🎯 Business Objective
+
+The key objective of this analysis is to understand:
+
+> **Whether the least profitable products are truly “bad products” or symptoms of deeper category-level or structural issues.**
+
+This helps businesses make better decisions around pricing, discount strategy, product design, and category management.
 
 ---
 
 ## 📷 Dashboard Preview
 
-
-
-![Dashboard Preview](Dashboard.png)
+![Dashboard](Dashboard.png)
 
 ---
 
-## 📊 Dashboard Features
+## 📊 Dashboard Overview
 
-### Overall Profit by Category
-Compares total profit across product categories within the selected department to identify which categories drive profits and which contribute to losses.
+This interactive Tableau dashboard allows users to explore profitability through multiple layers:
 
-### Profit by State
-A choropleth map visualizing profit by state, making it easy to identify geographic regions with strong or weak financial performance.
+### 🧩 1. Category Profitability Analysis
+Breaks down total profit by category to identify which business segments generate profit versus losses.
 
-### Top 10 Least Profitable Products
-Ranks the products generating the greatest financial losses, helping decision-makers prioritize improvement opportunities.
+### 🗺 2. Geographic Profit Distribution
+A state-level map visualization highlighting regions with strong profitability versus consistent losses.
 
-### Profit Trend
-Displays quarterly profit trends with a trend line to evaluate long-term profitability and identify seasonal patterns.
+### 📉 3. Top 10 Least Profitable Products
+Ranks products generating the highest financial losses to help prioritize improvement opportunities.
 
-### Interactive Filters
-Users can dynamically filter the dashboard by:
+### 📈 4. Profit Trend Analysis
+Shows quarterly profit trends with a trend line to identify seasonality, volatility, and long-term performance direction.
 
-- Department
-- Category
-- Product
-
-allowing detailed exploration of profitability at different levels.
+### 🔍 5. Drill-Down Filtering
+Interactive filters allow exploration from:
+**Department → Category → Product**
 
 ---
 
 ## 💡 Key Insights
 
-From the Furniture department analysis:
+The analysis reveals several important business patterns:
 
-- Tables generate the largest financial losses among all categories.
-- Chairs & Chairmats produce the highest overall profits despite containing some low-performing products.
-- Profitability varies significantly across states, indicating potential regional performance differences.
-- Profit fluctuates by quarter but shows an overall upward trend over the observed period.
-- Individual product losses do not necessarily indicate that an entire category is unprofitable.
+- Certain products within the Furniture category (especially tables) are the **largest contributors to negative profit**.
+- Despite containing loss-making items, categories such as Chairs & Chairmats remain **overall profitable**, showing that product-level losses do not always reflect category performance.
+- Profitability varies significantly across states, indicating **geographic inconsistency in performance**.
+- Profit trends fluctuate by quarter, suggesting potential influence from **seasonality or promotional cycles rather than stable growth patterns**.
+- The least profitable products are not always isolated issues—they often reflect **systemic pricing or cost structure problems**.
 
 ---
 
-## 🛠 Tools & Skills
+## 📌 Business Takeaway
+
+Instead of removing individual loss-making products, the analysis suggests a more strategic approach:
+
+- Evaluate pricing and discount strategies at the **category level**
+- Investigate cost structure behind high-loss product groups
+- Address geographic performance inconsistencies
+- Focus on structural improvements rather than isolated product elimination
+
+---
+
+## 🛠 Tools & Skills Used
 
 ### Tools
 - Tableau Desktop
 - Tableau Calculated Fields
+- Interactive Dashboards
 - Geographic Mapping
 - Trend Line Analysis
 
-### Skills Demonstrated
+### Skills
 - Data Visualization
 - Business Intelligence
-- Interactive Dashboard Design
-- Data Storytelling
 - Profitability Analysis
-- Geographic Analysis
-- Trend Analysis
-- Drill-down Dashboard Development
+- Drill-down Analysis
+- Geographic Data Analysis
+- Time Series Analysis
+- Data Storytelling
+- Dashboard Design
 
 ---
 
 ## 📂 Dataset
 
-**Dataset:** Global Superstore
+**Dataset Used:** Global Superstore Dataset
 
-The dataset includes information on:
+Includes:
 
 - Orders
 - Products
@@ -121,11 +131,12 @@ The dataset includes information on:
 
 ## 🚀 How to View the Dashboard
 
-### Option 1
-Open the Tableau Packaged Workbook (`.twbx`) using Tableau Desktop or Tableau Public Desktop.
+### Option 1: Tableau Desktop
+Open the `.twbx` file using Tableau Desktop or Tableau Public Desktop.
 
-### Option 2
-View the interactive dashboard on Tableau Public (link to be added).
+### Option 2: Tableau Public (Recommended)
+View the interactive dashboard online:
+👉 *Add your Tableau Public link here*
 
 ---
 
@@ -133,22 +144,19 @@ View the interactive dashboard on Tableau Public (link to be added).
 
 This project demonstrates my ability to:
 
-- Transform raw business data into actionable insights.
-- Design interactive dashboards for business users.
-- Communicate findings through effective data visualization.
-- Apply analytical thinking to investigate business performance.
-- Present complex data in a clear, user-friendly format.
+- Translate raw business data into actionable insights
+- Design executive-level dashboards for decision-making
+- Identify structural business problems using data
+- Communicate insights clearly to non-technical stakeholders
+- Apply analytical thinking to profitability and performance analysis
 
 ---
 
 ## 👤 Author
 
-**Irene Tran**
+**Irene Tran**  
+Data Analyst | Tableau | Excel | SQL | Python (Learning)
 
-Aspiring Data Analyst passionate about transforming data into meaningful business insights through visualization and analytics.
-
-**Skills:** Tableau • SQL • Excel • Python • Data Visualization • Business Intelligence
-
-LinkedIn: https://www.linkedin.com/in/irene-tran-76380714a/
-
-GitHub: https://github.com/Irenetran3011
+📍 Toronto, Canada  
+🔗 LinkedIn: https://www.linkedin.com/in/irene-tran-76380714a/  
+🔗 GitHub: https://github.com/Irenetran3011
